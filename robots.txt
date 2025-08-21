@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://newbieinvestor.org/sitemap.xml
