@@ -335,3 +335,19 @@ footer .footerGrid p.muted{ margin-top:8px; }
 footer p.muted{
   color: #AEB3C2;
 }
+
+/* Header nav layout (замість inline style на <nav>) */
+.nav-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Відступи/утиліти */
+.heroCard--spaced { margin-top: 18px; }
+.mt-12 { margin-top: 12px; }
+.mt-14 { margin-top: 14px; }
+.gap-10 { gap: 10px; }
+
+/* Варіант ґрід-корекції для одного стовпця */
+.grid--single { grid-template-columns: 1fr; }
