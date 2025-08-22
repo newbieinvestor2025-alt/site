@@ -1,0 +1,12 @@
+{
+  "name": "newbie-investor-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bilingual static site for Newbie Investor with Netlify Functions to pull YouTube videos and stats.",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
